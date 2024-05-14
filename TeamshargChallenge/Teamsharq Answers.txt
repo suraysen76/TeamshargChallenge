@@ -1,0 +1,20 @@
+﻿1. 	Can you give an example of a project where you have demonstrated your leadership skills as a Tech Lead?
+
+When i was attached to Petronas, i was a team lead then leading about 6 developers. All of them are junior developers and a QA .
+I was responsible of their work deliverables and managing their task timeline. Apart of this, i also review their design and system documentation. I was using TFS to manage their tasks and bug fixes. I was using Agile method, having Daily scrums discussing what has been done , the plan and roadblocks.
+
+2.	Can you give an example of how you have implemented Angular in a project?
+I as given a task while i was with ExxonMobil where I developed API using Angular with very minimal UI development experience. API was developed using Http module for reading, updating and deleting data in MySQL db
+
+3.	In your opinion, what is the biggest advantage of using AWS over Azure?
+I have experience in both Azure and AWS. The only advantage i observed is nanaging the platforms. Azure is connectable from anywhere unlike AWS need so,e jump server. Even tough ot can be administrated from anywhere. Azure have better diagnostic tools such as Insights compared to CloudWatch om AWS. Azure have cheaper platform for beginers.
+
+4.	Can you describe a time when you had to troubleshoot an issue with AWS infrastructure?
+Yes once the team lead created a EC2 container as wellas Fargate container for a same application. Any changes some time was reflected and sometime no. The gitHub workflow was deploying to EC2. The Fargate container was still reflecting the old solution but the URL was sometimes direct to both containers
+
+5.	How do you ensure high availability and disaster recovery in AWS?
+We were using DataDog tool t monitor our deployments. The tool able to tell us the peak tim, CPU usage and memory usage as well as error alerts. Our infrastructure team was tasked to monitor this and alert our developers in case of something
+
+6.	How do you ensure code quality and maintainability in a C# and .NET project? in .Net i always ensure all my developers have Unit Test. Once the check in their codes i always check the Code Coverage result. I will ensure theit Test project always passed 70% and above.
+In GitHub also once their run their deployment workflow, a third party tool will execute the Test project will produce the resul. Only 70% resilt will allow them to deploy
+
